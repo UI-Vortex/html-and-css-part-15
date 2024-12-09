@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .box {
+        width: calc(100% / 12 * 6);
+        background: black;
+    }
+}
+
+@media (min-width: 576px)  and (max-width:768px) {
+    .box {
+        width: calc(100% / 12 * 4);
+        background: purple;
+    }
+}
+
+@media (min-width: 768px)  and (max-width:992px) {
+    .box {
+        width: calc(100% / 12 * 3);
+        background: aqua;
+    }
+}
+
+@media (min-width: 992px)  and (max-width: 1200px) {
+    .box {
+        width: calc(100% / 12 * 1);
+        background: blue;
+    }
+}
